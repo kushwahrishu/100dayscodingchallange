@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class distinct{
+public static void main(String[]args){
+int i;
+ int m[]=new int[5];
+System.out.println("Enter marks of student:");
+System.out.println("1. maths:");
+System.out.println("2. c");
+System.out.println("3. java:");
+System.out.println("4. DBMS:");
+System.out.println("5. OS:");
+Scanner sc=new Scanner(System.in);
+for(i=0;i<5;i++)
+{    
+    
+    m[i]=sc.nextInt();
+}
+ System.out.println("you got distinction in these subjects");
+for(i=0;i<5;i++)
+{ 
+   if(m[i]>=75){
+   System.out.println(""+m[i]);
+ 
+}
+}
+     
+}
+}

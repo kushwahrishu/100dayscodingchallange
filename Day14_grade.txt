@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class grade{
+public static void main(String[]args){
+int i;
+ int m[]=new int[5];
+System.out.println("Enter marks of students:");
+Scanner sc=new Scanner(System.in);
+for(i=0;i<5;i++)
+{
+    m[i]=sc.nextInt();
+}
+for(i=0;i<5;i++)
+{
+   System.out.println("student marks:"+m[i]);
+   if(m[i]>=0&&m[i]<=40)
+   {
+       System.out.println("Grad C");
+    }
+   if(m[i]>41&&m[i]<=75)
+   {
+      System.out.println("Grad B");
+   }
+   if(m[i]>76&&m[i]<=100)
+   {
+      System.out.println("Grad A");
+    }
+     
+}
+}
+}
