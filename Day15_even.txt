@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class even{
+public static void main(String[]args){
+Scanner sc=new Scanner(System.in);
+System.out.printf("first 10 even numbers are such that:");
+for(int i=0;i<10;i++)
+{
+int n=2*i;
+System.out.println(""+n);
+}
+}
+}
