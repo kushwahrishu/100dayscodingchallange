@@ -1,0 +1,12 @@
+class even3{
+public static void main(String[]args){
+int n;int sum=0;
+for(int i=1;i<=13;i++)
+{
+n=3*i;
+System.out.println("multipal of 3:"+n);
+sum=sum+n;
+}
+System.out.println("sum="+sum);
+}
+}

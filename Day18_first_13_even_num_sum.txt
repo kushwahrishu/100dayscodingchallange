@@ -1,0 +1,14 @@
+class p{
+public static void main(String[]args){ 
+int sum=0 ;int n;
+for(int i=0;i<=12;i++)
+{
+    n=2*i;
+    System.out.println("even num:"+n);
+     sum=sum+n;
+}
+System.out.println("the sum of first 13 even numbers");
+    System.out.println(sum);
+}
+}
+    

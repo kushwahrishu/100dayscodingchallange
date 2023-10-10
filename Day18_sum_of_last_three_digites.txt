@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class p{
+public static void main(String[]args){ 
+System.out.println("enter number\n");
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+int sum=0;
+int i,a;
+for(i=0;i<3;i++)
+{
+     a=n%10;
+     System.out.println(" digit:\n"+a);
+     n=n/10;
+     sum=sum+a;
+}
+System.out.println("the sum of last three digits is:"+sum);
+}
+}
+    
